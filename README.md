@@ -100,6 +100,7 @@ This project is a **Face Look-Alike Detection System** that matches a user's upl
 
 - Add Top-3 predictions instead of single output.
 - Extend dataset to Hollywood, sports, politics.
+
 - Deploy model on **cloud (Heroku/Streamlit Cloud)** for public use.
 - Train custom model for better accuracy.
 
