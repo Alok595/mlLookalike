@@ -59,10 +59,10 @@ uploaded_image = st.file_uploader('Choose an image')
 if uploaded_image is not None:
     # save the image in a directory
     if save_uploaded_image(uploaded_image):
-        # load the image
+        # load the image here
         display_image = Image.open(uploaded_image)
 
-        # extract the features
+        # extract the features here
         features = extract_features(os.path.join('uploads',uploaded_image.name),model,detector)
         # recommend
         index_pos = recommend(feature_list,features)
